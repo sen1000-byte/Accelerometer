@@ -15,6 +15,10 @@
 		33444C1825D090C100F8B959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33444C1625D090C100F8B959 /* LaunchScreen.storyboard */; };
 		33444C2325D090C200F8B959 /* AccelerometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33444C2225D090C200F8B959 /* AccelerometerTests.swift */; };
 		33444C2E25D090C200F8B959 /* AccelerometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33444C2D25D090C200F8B959 /* AccelerometerUITests.swift */; };
+		33444C4125D0915E00F8B959 /* awa.png in Resources */ = {isa = PBXBuildFile; fileRef = 33444C3F25D0915D00F8B959 /* awa.png */; };
+		33444C4225D0915E00F8B959 /* suiheiki.png in Resources */ = {isa = PBXBuildFile; fileRef = 33444C4025D0915D00F8B959 /* suiheiki.png */; };
+		33444C4725D0931D00F8B959 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33444C4625D0931D00F8B959 /* GameViewController.swift */; };
+		33444C4C25D0932C00F8B959 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33444C4B25D0932C00F8B959 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		33444C2925D090C200F8B959 /* AccelerometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelerometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33444C2D25D090C200F8B959 /* AccelerometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerUITests.swift; sourceTree = "<group>"; };
 		33444C2F25D090C200F8B959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33444C3F25D0915D00F8B959 /* awa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awa.png; sourceTree = "<group>"; };
+		33444C4025D0915D00F8B959 /* suiheiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suiheiki.png; sourceTree = "<group>"; };
+		33444C4625D0931D00F8B959 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		33444C4B25D0932C00F8B959 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,9 @@
 				33444C1425D090C100F8B959 /* Assets.xcassets */,
 				33444C1625D090C100F8B959 /* LaunchScreen.storyboard */,
 				33444C1925D090C100F8B959 /* Info.plist */,
+				33444C3E25D0915D00F8B959 /* 13_Resource */,
+				33444C4625D0931D00F8B959 /* GameViewController.swift */,
+				33444C4B25D0932C00F8B959 /* ResultViewController.swift */,
 			);
 			path = Accelerometer;
 			sourceTree = "<group>";
@@ -126,6 +137,15 @@
 				33444C2F25D090C200F8B959 /* Info.plist */,
 			);
 			path = AccelerometerUITests;
+			sourceTree = "<group>";
+		};
+		33444C3E25D0915D00F8B959 /* 13_Resource */ = {
+			isa = PBXGroup;
+			children = (
+				33444C3F25D0915D00F8B959 /* awa.png */,
+				33444C4025D0915D00F8B959 /* suiheiki.png */,
+			);
+			path = 13_Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +253,9 @@
 			files = (
 				33444C1825D090C100F8B959 /* LaunchScreen.storyboard in Resources */,
 				33444C1525D090C100F8B959 /* Assets.xcassets in Resources */,
+				33444C4225D0915E00F8B959 /* suiheiki.png in Resources */,
 				33444C1325D090BB00F8B959 /* Main.storyboard in Resources */,
+				33444C4125D0915E00F8B959 /* awa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33444C4C25D0932C00F8B959 /* ResultViewController.swift in Sources */,
+				33444C4725D0931D00F8B959 /* GameViewController.swift in Sources */,
 				33444C1025D090BB00F8B959 /* ViewController.swift in Sources */,
 				33444C0C25D090BB00F8B959 /* AppDelegate.swift in Sources */,
 				33444C0E25D090BB00F8B959 /* SceneDelegate.swift in Sources */,
@@ -437,7 +461,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9J75UHWJ2Q;
 				INFOPLIST_FILE = Accelerometer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,7 +481,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9J75UHWJ2Q;
 				INFOPLIST_FILE = Accelerometer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
